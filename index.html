@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al Universe Hub</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="container mx-auto mt-2">
+  <header class="text-center">
+      <h1 class="text-3xl font-bold text-violet-700 text-center">Al Universe Tools !!!</h1>
+      <button onclick="handlerSort()" class="btn bg-orange-500 my-5 rounded-lg capitalize text-white text-center ">Sort by data</button>
+  </header> 
+   <main>
+   <section>
+  <!--Loading set -->
+    <div id="loading" class="my-14 hidden text-center text-indigo-600">
+      <span class="loading loading-spinner loading-lg"></span>
+    </div>
+
+
+    <!--Data Loading-->
+     <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+     
+
+     </div>
+
+   
+     <!--Modal -->
+  <div>
+    <!-- You can open the modal using ID.showModal() method -->
+<!-- You can open the modal using ID.showModal() method -->
+
+<dialog id="my_modal_4" class="modal">
+  
+  <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+    <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+  <div id='model-container' class="flex p-7">
+    
+
+  </div> 
+
+
+
+    <div class="modal-action">
+      <!-- if there is a button, it will close the modal -->
+  
+    </div>
+  </form>
+</dialog>
+
+
+    </div>
+    
+
+
+
+  </form>
+</dialog>
+  </div>
+
+
+
+
+   </section>
+  <!--See all Button-->
+  <div id="hide"  class="flex justify-center my-6">
+    <button onclick="myFunction()" class="btn bg-orange-500 my-5 rounded-lg capitalize text-white text-center ">See More</button>
+  </div>
+
+
+
+
+ 
+   </main>
+
+ 
+
+  <script src="js/tools.js"></script>
+</body>
+</html>
